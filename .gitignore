@@ -1,0 +1,45 @@
+# Compiled artifacts
+/_build/
+/cover/
+/deps/
+/erl_crash.dump
+
+# Ignore config file (you should not ignore your config file)
+# /config/*.secret.exs
+
+# Ignore database files
+# *.sqlite
+
+# Ignore compiled Erlang files
+**/*.beam
+
+# Ignore elixir deps
+/deps
+
+# Ignore .fetch files
+/*.fetch
+
+# Ignore Mix configuration file
+/.mix/
+
+# Ignore the build artifact
+/ebin/
+
+# Ignore local configuration
+/.elixir_ls/
+/.erlang_ls/
+
+# Ignore artifacts
+*.beam
+*.so
+*.o
+*.a
+
+# Ignore environment file
+/.envrc
+
+# Ignore Mac resource forks
+/._*
+
+# Ignore Mac metadata
+.DS_Store
